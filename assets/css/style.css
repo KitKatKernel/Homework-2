@@ -81,7 +81,7 @@ nav a:active {
 }
 
 img {
-    max-width: 1200px;
+    max-width: 100%;
     height:auto;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 5px var(--teal);
@@ -112,8 +112,29 @@ img {
     line-height: 1.6;
 }
 
+.me h2, .work h2, .contact h2 {
+
+}
+
 .me h2, .me p, .work h2, .work p, .contact h2, .contact p, .contact a {
     background-color: var(--lav);
+}
+
+.contact a {
+    color: var(--teal);
+    text-decoration: none;
+    position: relative;
+    font-size: 120%;
+    text-shadow: 3px 3px 3px var(--plum);
+}
+
+.contact a:hover, .contact a:focus {
+    color: var(--plum);
+    text-decoration: underline;
+}
+
+.contact a:active {
+    color: var(--lav);
 }
 
 
@@ -142,8 +163,61 @@ img {
     padding-bottom: 5px; 
 }
 
+.resume li strong {
+    color: var(--darkteal);
+    text-shadow: 3px 3px 3px var(--plum);
+
+}
+
 .resume h2, .resume p, .resume a, .resume li, .resume strong, .resume u {
     background-color: var(--lav);
+}
+
+.projects {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--lav);
+    box-shadow: 5px 0px 20px 5px var(--lav);
+    border-radius: 55px;
+    font-size: 150%;
+    color: var(--plum);
+    text-shadow: 3px 3px 3px plum;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+
+.projects h2, .projects h3, .projects p {
+    background-color: var(--lav);
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-item p {
+    margin: 0;
+}
+
+.project-item h3 {
+    font-size: 120%;
+    margin-bottom: 10px var(--lav); 
+}
+
+.project-item h3 a {
+    color: var(--teal);
+    background-color: var(--lav);
+    text-shadow: 3px 3px 3px var(--plum);
+    text-decoration: none;
+}
+
+.project-item h3 a:hover, .project-item h3 a:focus {
+    color: var(--plum);
+    text-decoration: underline;
+}
+
+.project-item h3 a:active {
+    color: var(--darkteal);
 }
 
 
