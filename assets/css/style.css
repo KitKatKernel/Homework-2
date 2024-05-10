@@ -113,7 +113,7 @@ img {
 }
 
 .me h2, .work h2, .contact h2 {
-
+    background-color: var(--lav);
 }
 
 .me h2, .me p, .work h2, .work p, .contact h2, .contact p, .contact a {
